@@ -179,6 +179,15 @@ th {
     text-decoration: none;
 }
 
+#imgcontainer{
+    margin-bottom: 10px;
+    float: right
+}
+
+#imgcontainer figure{
+    display: block;
+}
+
 
 
 @media (max-width: 650px) {
@@ -198,6 +207,15 @@ th {
         border-bottom-right-radius: 20px;
         border-top-right-radius: 20px;
     }
+
+    #imgcontainer{
+        float: none
+    }
+
+    #imgcontainer figure{
+        display: inline-block;
+    }
+
 }
 
 @media (max-width: 400px) {
